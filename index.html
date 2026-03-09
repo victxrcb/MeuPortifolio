@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Victor Castelo branco</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Victor</a>
+        <nav>
+            <a href="#" onclick="showPage('home')" id="nav-home" class="active">Home</a>
+            <a href="#" onclick="showPage('skills')" id="nav-skills">Skills</a>
+            <a href="#" onclick="showPage('education')">Education</a>
+            <a href="#" onclick="showPage('experience')">Experience</a>
+            <a href="#" onclick="showPage('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <!-- Foto (sempre visível) -->
+        <div class="home-img">
+            <img src="main3.jpg" alt="Victor">
+        </div>
+
+        <!-- Página Home (inicialmente visível) -->
+        <div class="home-content" id="home-page">
+            <h1>Olá, eu me chamo <span>Victor</span></h1>
+            <h3 class="typing-text">Eu sou 
+                <span></span>
+            </h3>
+            <p>Atualmente estou cursando Sistemas de informação na universidade Unit Tiradentes - SE, e estou em busca de uma vaga na área de tecnologia.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/victor-castelo-branco-939026334/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/victxrcb"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.instagram.com/victxrcb/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="curriculo.pdf" download class="btn">Contrate-me</a>
+        </div>
+
+        <!-- Página Skills (inicialmente oculta) -->
+        <div class="skills-content" id="skills-page" style="display: none;">
+            <h1>Minhas <span>Skills</span></h1>
+            
+            <div class="skills-icons">
+                <div class="skill-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-java" style="color: rgb(165, 82, 82);"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-node"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <div class="skills-text">
+                <p>Estas são as principais tecnologias que utilizo nos meus projetos. Sempre buscando aprender mais!</p>
+            </div>
+        </div>
+
+        <!-- Outras páginas (Education, Experience, Contact) -->
+        <div class="other-content" id="education-page" style="display: none;">
+            <h1><span>Education</span></h1>
+            <p>Página em desenvolvimento...</p>
+        </div>
+        
+        <div class="other-content" id="experience-page" style="display: none;">
+            <h1><span>Experience</span></h1>
+            <p>Página em desenvolvimento...</p>
+        </div>
+        
+        <div class="other-content" id="contact-page" style="display: none;">
+            <h1><span>Contact</span></h1>
+            <p>Página em desenvolvimento...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
