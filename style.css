@@ -118,9 +118,11 @@ section{
 
 .home-img img{
     position: relative;
-    width: 32vw;
+    width: 30vw;
+    height: 30vw;        /* força altura igual */
     border-radius: 50%;
-    box-shadow: 0 0 25px #b74b4b;
+    object-fit: cover;   /* corta a imagem sem distorcer */
+    box-shadow: 0 0 25px #d87272;
     cursor: pointer;
     transition: 0.2s linear;
 }
