@@ -48,15 +48,6 @@ const projects = [
     status: 'Em desenvolvimento',
     links: {},
   },
-  {
-    id: '06',
-    title: 'CLI Dev Tools',
-    description:
-      'Conjunto de ferramentas de linha de comando para automação de tarefas repetitivas no workflow de desenvolvimento.',
-    stack: ['Python', 'Click', 'Shell', 'Docker'],
-    status: 'Concluído',
-    links: { github: '#' },
-  },
 ]
 
 const statusColor = {
