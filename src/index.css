@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #070509;
+  --bg-secondary: #0d0a10;
+  --bg-card: #100d13;
+  --border: #231828;
+  --border-hover: #3d2640;
+  --accent: #9b1b30;
+  --accent-light: #c0283d;
+  --accent-dim: rgba(155, 27, 48, 0.1);
+  --accent-glow: rgba(155, 27, 48, 0.22);
+  --accent-purple: #5b21b6;
+  --text-primary: #e8ddd5;
+  --text-secondary: #8a7a72;
+  --text-muted: #4a3d3a;
+  --gold: #a07840;
+  --gold-dim: rgba(160, 120, 64, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.04em;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-light);
+}
+
+::selection {
+  background: var(--accent-glow);
+  color: var(--accent-light);
+}
+
+/* Ornamental divider utility */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-muted);
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}

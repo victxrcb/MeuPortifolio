@@ -1,0 +1,25 @@
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 6vw;
+  background: var(--bg-secondary);
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+.glyph {
+  font-size: 0.5rem;
+  color: var(--accent);
+  opacity: 0.5;
+}
+
+.glyphSmall {
+  font-size: 0.35rem;
+  color: var(--accent);
+  opacity: 0.3;
+}
