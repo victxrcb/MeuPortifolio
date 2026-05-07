@@ -37,7 +37,7 @@ const projects = [
       'Sistema de gerenciamento de dados para uma empresa que atua com fundo de investimento em direitos creditórios, com painel administrativo para controle de usuários, lembretes de entregas e geração de relatórios financeiros.',
     stack: ['React', 'JAVA', 'Javascript', 'Figma' , 'MySQL' , 'Spring Boot', 'Docker', 'vite', 'Vercel' ,],
     status: 'Em desenvolvimento',
-    links: { github: 'https://github.com/victxrcb/ProjetoVictor' },
+    links: { github: 'https://github.com/victxrcb/ProjetoVictor', live: 'https://projeto-victor-kappa.vercel.app/' },
   },
   {
     id: '05',
