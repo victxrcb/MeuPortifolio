@@ -43,7 +43,7 @@ const projects = [
     id: '05',
     title: 'Ecoin',
     description:
-      'Dashboard para controle financeiro pessoal com gráficos interativos e exportação de relatórios.',
+      'Dashboard para controle financeiro pessoal com gráficos interativos e exportação de relatórios, chat interativo com IA para responder dúvidas financeiras e sugestões de economia.',
     stack: ['React', 'vite', 'JavaScript',],
     status: 'Em desenvolvimento',
     links: {},
